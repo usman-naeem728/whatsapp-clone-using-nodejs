@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;*/
+  width: 50%;
+  /* border: 1px solid black; */
+}
+
+.main h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 14px;
+  border: 1px solid yellowgreen;
+  width: 30%;
+}
+
+.left {
+  display:flex;
+  position:absolute;
+  right: 300px;
+  margin: 10px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 14px;
+  border: 1px solid yellowgreen;
+  width: 15%;
+}
